@@ -3,7 +3,7 @@ module cdk-ecr-deployment-handler
 go 1.25.0
 
 require (
-	github.com/aws/aws-lambda-go v1.50.0
+	github.com/aws/aws-lambda-go v1.52.0
 	github.com/aws/aws-sdk-go-v2 v1.41.0
 	github.com/aws/aws-sdk-go-v2/config v1.32.5
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.54.2
@@ -91,7 +91,7 @@ require (
 	github.com/secure-systems-lab/go-securesystemslib v0.9.1 // indirect
 	github.com/sigstore/fulcio v1.8.5 // indirect
 	github.com/sigstore/protobuf-specs v0.5.0 // indirect
-	github.com/sigstore/sigstore v1.10.3 // indirect
+	github.com/sigstore/sigstore v1.10.4 // indirect
 	github.com/smallstep/pkcs7 v0.2.1 // indirect
 	github.com/stefanberger/go-pkcs11uri v0.0.0-20230803200340-78284954bff6 // indirect
 	github.com/sylabs/sif/v2 v2.22.0 // indirect
